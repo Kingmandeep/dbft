@@ -1,7 +1,10 @@
+import { Route, Switch } from "react-router-dom";
 import Head from "./components/Head";
+import Home from "./com/Home";
+import About from "./com/About";
+import Contact from "./com/Contact";
+import Footer from "./components/Footer";
 
-import Main1 from "./main/main1/Main1";
-import Main2 from "./main/main2/Main2";
 
 
 function App() {
@@ -9,8 +12,13 @@ function App() {
     <>
     
     <Head/>
-    <Main1/>
-    <Main2/>
+    <Switch>
+    <Route exact path="/" component={Home}/>
+    <Route exact path="/about" component={About}/>
+    <Route exact path="/contact" component={Contact}/>
+    </Switch>
+    <Footer/>
+    
     </>
   );
 }

@@ -1,18 +1,19 @@
 import { useState } from "react";
-import { AutoComplete, Menu, Avatar, Button } from "antd";
+import {  Menu, Avatar } from "antd";
 import {
   UserAddOutlined,
-  LogoutOutlined,
+
   MenuOutlined,
   MailOutlined,
-  ShoppingCartOutlined,
+
   IdcardOutlined,
   UserOutlined,
   AppstoreOutlined,
-  SettingOutlined,
+ 
 } from "@ant-design/icons";
 
 import logos from "./dbft.jpg";
+import { Link } from "react-router-dom";
 
 const { SubMenu, Item } = Menu;
 
@@ -39,7 +40,7 @@ const Head = () => {
           icon={<AppstoreOutlined style={{ fontSize: "110%" }} />}
           style={{ fontSize: 18, paddingTop: 10, color: "orangered" }}
         >
-          Home
+        <Link to="/">Home</Link>
         </Item>
         <SubMenu
         key="course"
@@ -48,20 +49,20 @@ const Head = () => {
         style={{ fontSize: 18, paddingTop: 15 }}
         title="Courses"
       >
-        <Item key="c1">Web Development</Item>
-        <Item key="c2">Android Development</Item>
-        <Item key="c3">Data Science</Item>
-        <Item key="c4">A I & M L</Item>
-        <Item key="c5">Block Chain</Item>
+        <Item key="c1"> <Link to="/webdevelopmet">Web Development</Link></Item>
+        <Item key="c2"><Link to="/androiddevelopmet">Android Development</Link></Item>
+        <Item key="c3"><Link to="/datascience">Data Science</Link></Item>
+        <Item key="c4"><Link to="/ai&ml">A I & M L</Link></Item>
+        <Item key="c5"><Link to="/blockchain">Block Chain</Link></Item>
       </SubMenu>
         <Item
           key="about"
           icon={<IdcardOutlined style={{ fontSize: "110%" }} />}
         >
-          About
+        <Link to="/about">About</Link>
         </Item>
         <Item key="help" icon={<MailOutlined style={{ fontSize: "110%" }} />}>
-          Contact
+        <Link to="/contact">Contact</Link>
         </Item>
 
         

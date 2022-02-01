@@ -1,7 +1,7 @@
 import { CardGroup, Card,Button } from "react-bootstrap";
 
 
-const Cont = () =>{
+const Main2 = () =>{
     return(
         <>
         <h2 style={{paddingLeft:"8%",fontSize:"26px",paddingTop:"10px"}}>Famous Courses</h2>
@@ -64,4 +64,4 @@ const Cont = () =>{
     )
 }
 
-export default Cont;
+export default Main2;
