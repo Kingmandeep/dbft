@@ -6,16 +6,16 @@ const Main1 = () => {
     <>
     <Carousel autoplay style={{padding:"5px 8%"}}>
     <div>
-    <img  style={{width:'100%',height:400}} src="https://wallpaperaccess.com/full/1947431.jpg"/>  
+    <img  style={{width:'100%',height:400}} src="https://wallpaperaccess.com/full/1947431.jpg" alt=""/>  
     </div>
     <div>
-    <img  style={{width:'100%',height:400}} src="https://wallpaperaccess.com/full/262055.jpg"/>  
+    <img  style={{width:'100%',height:400}} src="https://wallpaperaccess.com/full/262055.jpg"  alt=""/>  
     </div>
     <div>
-    <img  style={{width:'100%',height:400}} src="https://wallpaperbat.com/img/181165-role-of-data-scientist-loginworks-softwares-pvt-ltd.jpg"/>  
+    <img  style={{width:'100%',height:400}} src="https://wallpaperbat.com/img/181165-role-of-data-scientist-loginworks-softwares-pvt-ltd.jpg"  alt=""/>  
     </div>
     <div>
-    <img  style={{width:'100%',height:400}} src="https://i.pinimg.com/originals/10/1d/76/101d764ec9dfac551a5ae0039c50850d.jpg"/>  
+    <img  style={{width:'100%',height:400}} src="https://i.pinimg.com/originals/10/1d/76/101d764ec9dfac551a5ae0039c50850d.jpg"  alt=""/>  
     </div>
     
   </Carousel>
