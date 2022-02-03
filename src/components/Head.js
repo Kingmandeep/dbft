@@ -49,12 +49,13 @@ const Head = () => {
         style={{ fontSize: 18, paddingTop: 15 }}
         title="Courses"
       >
-        <Item key="c1"> <Link to="/webdevelopmet">Web Development</Link></Item>
-        <Item key="c2"><Link to="/androiddevelopmet">Android Development</Link></Item>
+        <Item key="c1"> <Link to="/webdevelopment">Web Development</Link></Item>
+        <Item key="c2"><Link to="/appdevelopment">App Development</Link></Item>
         <Item key="c3"><Link to="/datascience">Data Science</Link></Item>
         <Item key="c4"><Link to="/ai&ml">A I & M L</Link></Item>
         <Item key="c5"><Link to="/blockchain">Block Chain</Link></Item>
       </SubMenu>
+      
         <Item
           key="about"
           icon={<IdcardOutlined style={{ fontSize: "110%" }} />}

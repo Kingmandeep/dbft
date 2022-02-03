@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Main2 = () =>{
     return(
         <>
-        <h2 style={{paddingLeft:"8%",fontSize:"26px",paddingTop:"10px"}}>Famous Courses</h2>
+        <h2 style={{paddingLeft:"8%",fontSize:"26px",letterSpacing:"1px",paddingTop:"10px",color:"rgb(97,97,97)",fontWeight:"700"}}>BEST COURSES</h2>
         <CardGroup  style={{padding:"5px 8%"}}>
        
         <Card>
@@ -16,7 +16,7 @@ const Main2 = () =>{
             Web development is the work involved in developing a website for the Internet or an intranet.
             </Card.Text>
             
-            <Link to="/webdevelopmet"> <Button variant="primary" >Go to Course</Button></Link>
+            <Link to="/webdevelopment"> <Button variant="primary" >Go to Course</Button></Link>
            
           </Card.Body>
           <Card.Footer>
@@ -30,7 +30,7 @@ const Main2 = () =>{
             <Card.Text>
             App development is the act or process by which a mobile app is developed for mobile devices.
             </Card.Text>
-            <Link to="/androiddevelopmet"> <Button variant="primary">Go to Course</Button></Link>
+            <Link to="/appdevelopment"> <Button variant="primary">Go to Course</Button></Link>
             
           </Card.Body>
           <Card.Footer>

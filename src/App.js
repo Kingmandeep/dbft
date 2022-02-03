@@ -21,8 +21,8 @@ function App() {
     <Route exact path="/" component={Home}/>
     <Route exact path="/about" component={About}/>
     <Route exact path="/contact" component={Contact}/>
-    <Route exact path="/webdevelopmet" component={Webdev}/>
-    <Route exact path="/androiddevelopmet" component={Androiddev}/>
+    <Route exact path="/webdevelopment" component={Webdev}/>
+    <Route exact path="/appdevelopment" component={Androiddev}/>
     <Route exact path="/datascience" component={Datascience}/>
     <Route exact path="/blockchain" component={Blockchain}/>
     <Route exact path="/ai&ml" component={Aiml}/>
