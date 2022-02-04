@@ -9,6 +9,8 @@ import Androiddev from "./com/Androiddev";
 import Datascience from "./com/Datascience";
 import Blockchain from "./com/Blockchain";
 import Aiml from "./com/Aiml";
+import Login from "./com/Login";
+import Signup from "./com/Signup";
 
 
 
@@ -26,6 +28,8 @@ function App() {
     <Route exact path="/datascience" component={Datascience}/>
     <Route exact path="/blockchain" component={Blockchain}/>
     <Route exact path="/ai&ml" component={Aiml}/>
+    <Route exact path="/login" component={Login}/>
+    <Route exact path="/signup" component={Signup}/>
     </Switch>
     <Footer/>
     

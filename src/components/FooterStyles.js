@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-padding: 80px 60px;
-background: rgb(107,103,103);
+padding: 20px 60px;
+background: rgb(157,150,150);
 
 bottom: 0;
 width: 100%;
@@ -12,6 +12,7 @@ width: 100%;
 	padding: 70px 30px;
 }
 `;
+
 
 export const Container = styled.div`
 	display: flex;
@@ -43,7 +44,7 @@ grid-gap: 20px;
 
 export const FooterLink = styled.a` 
 color: #fff;
-margin-bottom: 20px;
+margin-bottom: 10px;
 font-size: 18px;
 text-decoration: none;
 
@@ -56,6 +57,6 @@ text-decoration: none;
 export const Heading = styled.p`
 font-size: 24px;
 color: #fff;
-margin-bottom: 40px;
+margin-bottom: 20px;
 font-weight: bold;
 `;

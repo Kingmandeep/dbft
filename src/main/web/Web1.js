@@ -6,8 +6,8 @@ const Web1 = () => {
       <Carousel>
         <div>
           <img
-            style={{ width: "90%", height: 350, margin: "5px 5%",borderRadius:"10px" }}
-            src="https://1.bp.blogspot.com/-7rEgVqxtC-U/WS2jxCPfIzI/AAAAAAAAAJM/bMBKeJ1JtUchZ8ginmy2B1VhkJnn_X4WACLcB/s1600/banner-web-development.png"
+            style={{ width:"50%",margin: "5px 45%",borderRadius:"10px" }}
+            src="https://devrix.com/wp-content/uploads/2020/03/Web-Design-vs-Web-Development-Knowing-the-Difference.png"
             alt=""
           />
         </div>

@@ -8,8 +8,8 @@ const Abouts = () => {
       <Carousel>
         <div>
           <img
-            style={{ width: "82%", height: 350, margin: "5px 9%" }}
-            src="https://filestage.io/images/full-team.06ae6789.png"
+            style={{ width: "60%", margin: "5px 22%" }}
+            src="https://www.deque.com/wp-content/uploads/2019/04/A11y-in-agile-team-practices.png"
             alt=""
           />
         </div>

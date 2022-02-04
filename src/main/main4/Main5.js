@@ -2,7 +2,7 @@ import { Card } from "antd";
 const Main5 = () => {
   return (
     <>
-      <div style={{margin:"5px 5%"}}>
+      <div style={{marginTop:"5px",marginBottom:"5px",marginLeft:"25%",marginRight:"8%"}}>
         <Card bordered={false} style={{ width: "100%" }}>
           
           <p style={{ fontSize: "20px",fontWeight:"500",color:"rgb(97,97,97)" }}>

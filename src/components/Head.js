@@ -32,8 +32,9 @@ const Head = () => {
         selectedKeys={[current]}
         mode="horizontal"
       >
+      
         <Item key="icon">
-          <Avatar shape="square" size={68} src={logos} />
+        <h4 style={{float:"left",marginTop:"25px",color:"rgb(34,196,236)"}}>Doubtfree</h4><Avatar  shape="square" size={68} src={logos} />
         </Item>
         <Item
           key="home"
@@ -73,11 +74,11 @@ const Head = () => {
           style={{paddingTop:10}}
           icon={
             <UserAddOutlined
-              style={{ fontSize: "120%", color: "orangered" }}
+              style={{ fontSize: "120%", color: "rgb(34,196,236)" }}
             />
           }
         >
-          SignUp
+        <Link to="/signup">SignUp</Link>
         </Item>
         <Item
           key="login"
@@ -85,11 +86,11 @@ const Head = () => {
           style={{paddingTop:10}}
           icon={
             <UserOutlined
-              style={{ fontSize: "120%", color: "orangered" }}
+              style={{ fontSize: "120%", color: "rgb(34,196,236)" }}
             />
           }
         >
-          LogIn
+        <Link to="/login">LogIn</Link>
         </Item>
 
         

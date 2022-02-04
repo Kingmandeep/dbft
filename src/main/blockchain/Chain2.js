@@ -2,20 +2,38 @@ import { CardGroup, Card,Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 
-const Main3 = () =>{
+const Chain2 = () =>{
     return(
         <>
-        <h2 style={{paddingLeft:"5%",fontSize:"26px",letterSpacing:"1px",paddingTop:"15px",color:"rgb(97,97,97)",fontWeight:"700",marginTop:"20px"}}>FAMOUS COURSES</h2>
-        <CardGroup  style={{padding:"5px 5%",marginBottom:"20px"}}>
+        <Button type="primary" shape="round"   style={{margin:"25px 5%",fontSize:"18px",paddingTop:"10px",borderRadius:"50px",width:"165px"}}>
+        <h5 style={{color:"white",letterSpacing:"1px",fontSize:"22px"}}>Block Chain</h5>
+        </Button>
+        
+        <CardGroup  style={{padding:"5px 5%"}}>
        
         <Card>
-          <Card.Img variant="top" src="https://wallpapercave.com/wp/wp5191404.png" />
+          <Card.Img variant="top" src="https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&w=1000&q=80" />
           <Card.Body>
-            <Card.Title>Node.js</Card.Title>
+            <Card.Title>Introduction to Block Chain </Card.Title>
             <Card.Text>
-            Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. 
+            HTML is the standard markup language for documents designed to be displayed in a web browser.
             </Card.Text>
-            <Link to="/nodejs"><Button variant="primary">Go to Course</Button></Link>
+            
+            <Link to="/html"> <Button variant="primary" >Go to Course</Button></Link>
+           
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Last updated 1 day ago</small>
+          </Card.Footer>
+        </Card>
+        <Card>
+          <Card.Img variant="top" src="https://wallpaperaccess.com/full/395434.jpg" />
+          <Card.Body>
+            <Card.Title>Introduction to Bitcoins</Card.Title>
+            <Card.Text>
+            CSS is a stylesheet language used to describe the presentation of a document written in HTML or XML.
+            </Card.Text>
+            <Link to="/css"> <Button variant="primary">Go to Course</Button></Link>
             
           </Card.Body>
           <Card.Footer>
@@ -23,23 +41,9 @@ const Main3 = () =>{
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="https://www.educative.io/v2api/collection/10370001/5227455105204224/image/6349680696885248" />
+          <Card.Img variant="top" src="https://wallpaperaccess.com/full/4785530.png" />
           <Card.Body>
-            <Card.Title>Mongodb</Card.Title>
-            <Card.Text>
-            MongoDB is a document database used to build highly available and scalable internet applications.  
-            </Card.Text>
-            <Link to="/mongodb"><Button variant="primary" > Go to Course </Button></Link>
-             
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 1 day ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="https://wallpaperaccess.com/full/1555163.jpg" />
-          <Card.Body>
-            <Card.Title>JavaScript</Card.Title>
+            <Card.Title>Introduction to Ethereum</Card.Title>
             <Card.Text>
             JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.
             </Card.Text>
@@ -51,9 +55,9 @@ const Main3 = () =>{
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="https://wallpapercave.com/wp/wp4923992.png" />
+          <Card.Img variant="top" src="https://media.istockphoto.com/photos/blockchain-technology-with-abstract-background-picture-id871491470?k=20&m=871491470&s=170667a&w=0&h=L-YAhsq3BB3hZ3M2PbYueABYpLV0mQ3WJnU1S7Veb9A=" />
           <Card.Body>
-            <Card.Title>React.js</Card.Title>
+            <Card.Title>Introduction to CryptoCurrency</Card.Title>
             <Card.Text>
             React.js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications.  
             </Card.Text>
@@ -69,4 +73,4 @@ const Main3 = () =>{
     )
 }
 
-export default Main3;
+export default Chain2;
