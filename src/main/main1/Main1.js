@@ -5,11 +5,11 @@ const Main1 = () => {
       <Carousel autoplay style={{ padding: "5px 5%", border:"none" }}>
       <div>
           <img
-            style={{  width: "65%",
-            margin:"0 20%",
+            style={{  width: "50%",
+            margin:"0 25%",
             borderRadius: "10px",
             border: "none", }}
-            src="https://www.hardsoftcomputers.co.uk/wp-content/uploads/2021/03/header.png"
+            src="https://www.godfrey.com/-/media/godfrey/insights/thought-leadership/build-your-most-effective-marketing-team/sg-blog-trdshw-pr-p1.gif?la=en&&hasA84C768B1C61DF90913E5CE4811BBB9DA"
             alt=""
           />
         </div>
@@ -21,7 +21,7 @@ const Main1 = () => {
               borderRadius: "10px",
               border: "none",
             }}
-            src="https://agreemtech.com/wp-content/uploads/2021/05/web-development.jpg"
+            src="https://cdn.dribbble.com/users/2918596/screenshots/10001475/teamwork.gif"
             alt=""
           />
         </div>
@@ -32,18 +32,18 @@ const Main1 = () => {
               margin:"0 25%",
             borderRadius: "10px",
             border: "none", }}
-            src="https://t3.ftcdn.net/jpg/02/24/86/92/360_F_224869243_WZHOVD3GqYq6ZUzRkZbQNTXzg1FzHwhd.jpg"
+            src="https://www.spaceitbd.com/wp-content/uploads/2018/09/homepage-hero-team.gif"
             alt=""
           />
         </div>
         <div>
           <img
             style={{  
-              width: "58%",
-              margin:"0 20%",
+              width: "40%",
+              margin:"0 30%",
             borderRadius: "10px",
             border: "none", }}
-            src="https://t4.ftcdn.net/jpg/04/08/34/71/360_F_408347174_dAhyjnOPyVZpoQFpAnMSgFHHbbHo1dNU.jpg"
+            src="https://cdn.dribbble.com/users/2086530/screenshots/4830501/_metric_ai_2.gif"
             alt=""
           />
         </div>

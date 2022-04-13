@@ -14,8 +14,8 @@ const Footer = () => {
     <Box>
       <h1 style={{ color: "rgb(34,196,236)", 
                    textAlign: "center", 
-                   marginTop: "-50px" }}>
-        Doubtfree <img src="http://doubtfree.in/wp-content/uploads/2022/01/logo-only-1-120x170.png" alt=""/>
+                   marginTop: "50px" }}>
+        EduIndia 
       </h1>
       
       <Container>
@@ -36,9 +36,9 @@ const Footer = () => {
           <Column>
             <Heading>Contact Us</Heading>
            
-            <FooterLink >Mayank Kumar</FooterLink>
-            <FooterLink >Ph No: +91 xxxxxx123</FooterLink>
-            <FooterLink >email: info@doubtfree.in</FooterLink>
+            <FooterLink >Mandeep Gupta</FooterLink>
+            <FooterLink >Ph No: +91 6205446075</FooterLink>
+            <FooterLink >email: devmandeep1@gmail.com</FooterLink>
           </Column>
           <Column>
             <Heading>Social Media</Heading>

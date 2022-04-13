@@ -1,5 +1,6 @@
 import { Carousel, Card } from "antd";
 import { Avatar, Row, Col } from "antd";
+import logo from "./Mandeep.jpeg";
 import { UserOutlined, GoldOutlined, BookOutlined } from "@ant-design/icons";
 const { Meta } = Card;
 const Abouts = () => {
@@ -8,8 +9,8 @@ const Abouts = () => {
       <Carousel>
         <div>
           <img
-            style={{ width: "60%", margin: "5px 22%" }}
-            src="https://www.deque.com/wp-content/uploads/2019/04/A11y-in-agile-team-practices.png"
+            style={{ width: "30%", margin: "5px 35%" }}
+            src="https://cdn.dribbble.com/users/1350622/screenshots/4413501/9.gif"
             alt=""
           />
         </div>
@@ -26,7 +27,7 @@ const Abouts = () => {
               letterSpacing: "2px",
             }}
           >
-            VISION
+            About
           </h1>
           <p style={{ fontSize: "18px" }}>
             Our aim is to be become one of the most admired brands in the
@@ -113,99 +114,14 @@ const Abouts = () => {
           
           style={{ textAlign:"center"}}
           cover={
-            <Avatar size={204} src="http://doubtfree.in/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-18-at-3.33.05-PM-modified-300x300.png" style={{ margin:"0 auto"}}/>
+            <Avatar size={204} src={logo} style={{ margin:"0 auto"}}/>
           }
         >
-          <Meta title="MAYANK KUMAR" description="GLOBAL BUSINESS ICON AWARD WINNER & FOUNDER OF DOUBTFREE " />
+          <Meta title="MANDEEP GUPTA" description=" FUTURE CEO & BUSINESS TYCOON " />
         </Card>
         
-        <div className="site-card-wrapper" style={{margin:"20px 1%"}}>
-        <Row >
-       
-          <Col >
-          <Card
-          hoverable
-          style={{ width: 237 }}
-          cover={<Avatar size={180} src="" style={{ margin:"0 auto"}}/>}
-        >
-          <Meta title="KASHISH GUPTA" description="Chief Technology and Business
-          Development Officer" />
-        </Card>
-          </Col>
-          <Col >
-          <Card
-          hoverable
-          style={{ width: 237 }}
-          cover={<Avatar size={180} src="" style={{ margin:"0 auto"}}/>}
-        >
-          <Meta title="SHIVANGI JADON" description="Chief HR Officer" />
-        </Card>
-          </Col>
-          <Col >
-          <Card
-          hoverable
-          style={{ width: 237 }}
-          cover={<Avatar size={180} src="" style={{ margin:"0 auto"}}/>}
-        >
-          <Meta title="MUSKAN MAHESHWARI" description="Chief Marketing Office" />
-        </Card>
-          </Col>
-          <Col >
-          <Card
-          hoverable
-          style={{ width: 237 }}
-          cover={<Avatar size={180} src="" style={{ margin:"0 auto"}}/>}
-        >
-          <Meta title="Shivangi Singh Jha" description="Company Representative" />
-        </Card>
-          </Col>
-          <Col >
-          <Card
-          hoverable
-          style={{ width: 237 }}
-          cover={<Avatar size={180} src="" style={{ margin:"0 auto"}}/>}
-        >
-          <Meta title="MANISH KUMAR" description="VP Technology" />
-        </Card>
-          </Col>
-          <Col >
-          <Card
-          hoverable
-          style={{ width: 237 }}
-          cover={<Avatar size={180} src="" style={{ margin:"0 auto"}}/>}
-        >
-          <Meta title="SHRUTI KAPOOR" description="Company Representative" />
-        </Card>
-          </Col>
-          <Col >
-          <Card
-          hoverable
-          style={{ width: 237 }}
-          cover={<Avatar size={180} src="" style={{ margin:"0 auto"}}/>}
-        >
-          <Meta title="ABHINAV SINGH" description="Co - Chief Operating Officer" />
-        </Card>
-          </Col>
-          <Col >
-          <Card
-          hoverable
-          style={{ width: 237 }}
-          cover={<Avatar size={180} src="" style={{ margin:"0 auto"}}/>}
-        >
-          <Meta title="JATIN JHA" description="Company Representative" />
-        </Card>
-          </Col>
-          <Col >
-          <Card
-          hoverable
-          style={{ width: 237 }}
-          cover={<Avatar size={180} src="" style={{ margin:"0 auto"}}/>}
-        >
-          <Meta title="ARNAV JAIN" description="Chief Operating officer" />
-        </Card>
-          </Col>
-        </Row>
-      </div>
+        
+     
       </div>
     </>
   );

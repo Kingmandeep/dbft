@@ -1,8 +1,8 @@
-import { Form, Input, InputNumber, Button, Select, DatePicker } from "antd";
+import { Button } from "antd";
 import { DoubleLeftOutlined, FileDoneOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 const Contact1 = () => {
-  const { Option } = Select;
+ 
   const contactForm = () => (
     <form>
       <div className="form-group">
